@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Set the height of the wrapper to the full viewport height */
+}
+
+.content {
+    text-align: center; /* Center align text */
+}
+
+.gif {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: whitesmoke;
+
+}
+h2{
+    font-size: 3em;
+    color: red;
+    margin: 15px 0;
+}
+
+.btn-group{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+button{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: white;
+    font-size: 1.2em;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+button:nth-child(1){
+    margin-left: -200px;
+    background: red;
+
+}
+button:nth-child(2){
+    margin-right: -200px;
+    background: red;
+    
+}
